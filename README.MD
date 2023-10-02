@@ -29,7 +29,7 @@ Email Validation Regex
 - Validate - name, email, password - with Mongoose
 - Hash Password (with bcryptjs)
 - Save User
-- Generate Token
+- Generate Token(with JsonWebToken)
 - Send Response with Token
 
 #### Login User
@@ -54,16 +54,3 @@ Email Validation Regex
 - cors
 - xss-clean
 - express-rate-limit
-
-Swagger UI
-
-```yaml
-/jobs/{id}:
-  parameters:
-    - in: path
-      name: id
-      schema:
-        type: string
-      required: true
-      description: the job id
-```
